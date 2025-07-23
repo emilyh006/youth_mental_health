@@ -2,7 +2,6 @@
 title: ""
 author: ""
 date: ""
-jupyter: python3
 format:
   pdf:
     latex-engine: xelatex
@@ -19,8 +18,8 @@ format:
           \vspace*{3cm}
           {\Huge\bfseries Youth Mental Health Clustering \\[0.5cm]}
           \vspace{2cm}
-          {\Large Erika Garza-Elorduy (Lead Author)\par}
-          {\Large Yawen Dong, Emily Han, Junyi Hui  (Co-Authors)\par}
+          {\Large Emily Han, Erika Garza-Elorduy \par}
+          {\Large Yawen Dong, Junyi Hui\par}
           \vspace*{3cm}
           {\large June 13th, 2025\par}
           \thispagestyle{empty}
@@ -32,13 +31,6 @@ execute:
   warning: false
   message: false
 ---
-
-# Cover Letter
-For this Final Paper Revision, the method and the result section for both domain-specific clustering and composite clustering was revised to improve clarity and strengthen the interpretive flow of the results. In the earlier version, the writing primarily described outcomes without consistently linking them to contextual relevance or theoretical framing. In this revision, the results were restructured to more clearly articulate how each cluster reflects psychosocial conditions and to better explain the significance of cluster cohesion, separation, and cross-domain alignment. The revised narrative connects findings to the hypotheses below more directy, resulting in a more coherent and realistic interpretation of adolescent mental health risk across the home, social, and physical health domains.
-
-Furthermore, we took a step back and rethought our clustering approach based on feedback about the original four-cluster compostie model, specially the lack of coherence in some clusters and the stronger silhouette score at k=2. We moved toward a simpler, two-cluster solution that we hoped would provide more clear separation between well-regulated adolescents from those with more diffuse, elevated risk. We also updated our visualizations to reflect this shift: re-running PCA projections, generating a new cluster heatmap, and updating the radar plot to compare mental health profiles for two clusters. Finally,  to test the robustness of our findings, we explored DBSCAN with a wide range of parameters. While it didn’t yield strong or stable clusters, its tendency to label high-risk students as noise actually supported our main point: hat these students aren’t easily grouped because of how diverse their risk profiles are. Along the way, we improved our interpretations, added clarity to our figures, and adjusted our framing to better reflect the complexity of adolescent mental health data.
-
-\newpage
 
 # Introduction 
 
